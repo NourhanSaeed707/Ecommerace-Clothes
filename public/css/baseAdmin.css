@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head-Header{
+    background-color: #9d8661;
+}
+.navbar{
+    right: 150px;
+}
+.footerEnd{
+    /* position: fixed; */
+    /* position: absolute; */
+    bottom:0px;
+}
+/* form search womenClothes */
+.form_womensearch{
+    width:50%;
+}
+/* form delete*/
+.contentt{
+    display: inline-block;
+    left:0;
+    right:0;
+    padding:0;
+    margin:0;
+    width:100%;
+    height: 200%;
+}
+.footerEnd{
+    bottom: 0;
+    /* position :fixed; */
+}

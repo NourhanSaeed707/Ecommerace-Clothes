@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.quantityInput{
+    width:50px;
+    margin-left: 10px;
+}
+.colorWithBorder{
+    border:solid 2px #1f49b6;   
+    padding:6px;
+}
+td{
+    /* text-align: center; */
+    align-items: center;
+}
+.emptyItems{
+    display: flex;
+    /* grid-column-gap:40px; */
+    justify-content:space-evenly;
+    align-items: center;
+}
+.emptyTitle{
+    display: block;
+    width: 300px;
+}
+.cart_empty{
+    text-align: center;
+    top:50%;
+    left:50%;
+    font-size: 4.5vh;
+    color: #7c878e;
+}
+.cart_emptyyy{
+    font-size: 3.1vh;
+    color: #7c878e;
+}
+a{
+    text-decoration: none;
+}
+.continueShopping{
+    color: #2D46B9;
+    font-size: 2.8vh;
+}
+
+/* check out section */
+.subTotalOfPrice{
+    display: flex;
+    justify-content: flex-end;
+    color: #1f49b6;
+    font-size: 3vh;
+    font-weight: 700;
+
+}
+.subTotal{
+    margin-right: 61px;
+    font-weight: 700;
+}
+.abtn{
+   display: flex;
+   justify-content: flex-end;
+}
+a .CheckOutbtn{
+    
+    width: 252px;
+    height: 60px;
+    background-color: #1f49b6;
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+    right: 0ch;
+}
+.form_items{
+    display: flex;
+    align-items: center;
+}
+.btnsubmit1,.btnsubmit2{
+     width: 29px;
+     height: 28px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    /* border-color: black; */
+    font-size: 20px;
+    /* align-items: center; */
+}
+
+.quantityInput{ text-align: center;}
+.btnsubmit2{
+    margin-left: -6px;
+}
+.btnsubmit1{
+    margin-right: -12px;
+}

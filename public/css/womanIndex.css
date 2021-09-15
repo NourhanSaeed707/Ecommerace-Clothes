@@ -1,0 +1,31 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.clothname,.clothprice,.clothtotal{text-align: center;}
+.clothname{
+    margin-top: 15px;
+    color: #6B7AA1;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3vh;
+    text-align: center;
+}
+.pricetotal{display: flex; justify-content:space-evenly; text-align: center;}
+.clothprice,.clothtotal{
+   color: #0F52BA;
+   font-weight: 700;
+   font-size: 3vh;
+}
+strike{
+    color: red;
+}
+.pagination{
+    justify-content: center;
+}
+.img{position: relative;}
+img:hover {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+ 

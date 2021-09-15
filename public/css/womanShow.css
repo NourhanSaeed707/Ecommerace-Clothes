@@ -1,0 +1,52 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.color{
+    display: flex;
+    grid-column-gap:4px;
+    align-items: flex-start;
+    margin-top: -15px;
+}
+.clothname{
+    font-size: 5.5vh;
+    font-weight: 700;
+    color: #CDBBA7;
+}
+.clothtotal, .clothprice{
+   font-size: 3.5vh; font-weight: 600;
+}
+.btnAddToCard{
+    width: 250px;
+    height: 65px;
+    background-color: #1f49b6;
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+}
+.size_name,.color_name{
+    font-size: 2.8vh;
+}
+a .colorWithBorder{
+    border:solid 2px #1f49b6;   
+    padding:6px;
+}
+.colorWithoutBorder{
+    padding: 6px;
+}
+.colorWithoutBorder:hover{
+    border:solid 2px #1f49b6; 
+    /* padding:6px; */
+}
+.quantityInput{
+    width:50px;
+    margin-left: 10px;
+}
+@media screen and (min-width:100px) and (max-width:300px){
+    .quantityInput{
+        width:50px;
+        margin-top: 10px;
+        /* margin-left: -1px; */
+    }
+}

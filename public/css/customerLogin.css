@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.labelEmail,.labelPassword,.labelName{
+    font-size: 2vh;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+}
+.Title{
+    font-size: 4vh;
+    font-family: 'Old Standard TT', serif;
+    letter-spacing: 1.6px;
+}
+input[name="LoginBtn"],input[name="SignUpBtn"]{
+    width:90px;
+    height: 40px;
+    font-size: 2.3vh;
+    letter-spacing: 1.3px;
+    background-color: #000;
+    border: 1px solid #000;
+    color: white;
+}
+

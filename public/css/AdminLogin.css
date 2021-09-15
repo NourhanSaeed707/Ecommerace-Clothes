@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .form_createAdmin{} */
+.fooorm{
+    left:0;
+    width:100%;
+    background-image: url('../images/Admin/back5.jpg');
+    background-size: cover ;
+    background-position: center;
+    height: 80vh;
+    margin:0;
+}
+.form_createAdmin{
+    /* display: inline-block; */
+    width:70%;
+    height:70vh;
+    padding-left: 65px;
+    padding-top: 30px;
+}
+.submit{
+    width:80px;
+    height: 40px;
+    color:white;
+    background-color: #000034;
+    border: 1px solid #000034;
+    border-radius: 5.5px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backgroundAdminHome{
+    width:100%;
+    height: 85vh;
+    background-image: url('../images/admin/back7.jpg');
+    /* background-color:wheat; */
+    /* background-size: center center; */
+    background-size: cover;
+    background-position: center center;
+    /* opacity: 0.8; */
+    font-family: 'poppins',sans-serif;
+}
+h2{
+    position: relative;
+    font-size: 5vw;
+    color: #252839;
+    -webkit-text-stroke:0.3vw #383d52 ;
+    text-transform:capitalize;
+    top:35%;
+    /* padding-left: 60px; */
+}
+h2::before{
+    content:attr(data-text);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #FCECDD;
+    -webkit-text-stroke:0vw  #383d52;
+    border-right: 1px solid #383d52;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate{
+    0%,10%,100%{
+        width:0;
+    }
+    70%,90%{
+        width:30%;
+    }
+}
